@@ -79,6 +79,24 @@ html{
 
 }
 
+.boxes .link h2{
+    font-size: 80px;
+    color: wheat;
+
+}
+
+.boxes .link h3{
+    font-size: 30px;
+    color: black;
+
+
+}
+.boxes .link p{
+    font-size: 20px;
+    color: black;
+}
+
+
 .boxes .link:nth-child(1)
 {
     background: linear-gradient(45deg,#abb703,#ff647e);

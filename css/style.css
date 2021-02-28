@@ -131,7 +131,7 @@ html{
 }
 
 .media{
-    height: 40vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,8 +1,44 @@
-html{
 
+
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 40px;
+}
+
+#pageselection{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 30%;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-button{
+  float:left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  line-height:40px;
+  text-decoration: none;
+}
+.nav-button a{
+    color: black;
+   text-decoration: none; 
+  display:block;
+  
+  height: 100%;
+  font-size: 20px;
+}
+HTML{
     
-    background-image: url('images/background.jpg');
-    background-repeat: repeat-y;
+    background-image: url('images/DD.JPG');
     background-size: contain;
     transition: 2s ease all;
     
@@ -19,6 +55,7 @@ html{
     margin-top: 100px;
     margin-bottom: 100px;
     margin: 0 auto;
+    
 
 }
 
@@ -29,6 +66,13 @@ html{
     border: 5px solid black;
 
     border-radius: 55%;
+}
+
+.myphoto:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    
 }
 
 .about h3{
@@ -48,6 +92,25 @@ html{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    
+  }
+   .column img{
+       border-radius: 10px;
+       transition: width 2s;
+       width: 300px;
+   }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .learning h2{
     font-size: 4.5em;
     text-align: center;
@@ -71,10 +134,12 @@ html{
 .boxes .link{
     position: relative;
     background: #fff;
-    padding: 20px 40px 40px;
+    padding: 10px 40px 40px;
     text-align: center;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 7px solid black;
+    
   
 
 }
@@ -93,26 +158,26 @@ html{
 }
 .boxes .link p{
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 
 .boxes .link:nth-child(1)
 {
-    background: linear-gradient(45deg,#abb703,#ff647e);
+    background: linear-gradient(45deg,#64ffb7,black);
 }
 .boxes .link:nth-child(2)
 {
-    background: linear-gradient(45deg,#b75103,#6464ff);
+    background: linear-gradient(45deg,#0363b7,black);
 }
 
 .boxes .link:nth-child(3)
 {
-    background: linear-gradient(45deg,#abb703,#ff647e);
+    background: linear-gradient(45deg,#037eb7,black);
 }
 .boxes .link:nth-child(4)
 {
-    background: linear-gradient(45deg,#b75103,#6464ff);
+    background: linear-gradient(45deg,#64e8ff,black);
 }
 
 
@@ -142,16 +207,17 @@ html{
     
     height: 100px;
     width: 100px;
-    background-color:pink;
+    background-color:#03b78a;
     border-radius: 60px;
     text-align: center;
     margin: 10px;
     line-height: 110px;
     box-shadow: 3px 8px 5px 5px;
+    
 }
 
 a:hover i{
-    transform: scale(3.5);
+    transform: scale(3.8);
 }
 
 .contactme{
@@ -183,7 +249,9 @@ a:hover i{
     margin: 15px 0;
     padding: 20px 40px;
     transition: 0.8s;
-    background: pink;
+    background: black;
+    color: white;
+    border-radius: 20px 20px;
 
 }
 
@@ -191,7 +259,23 @@ textarea.contactform-text{
     height: 150px;
 }
 .contactform-btn{
-    background: black;
-    color: white;
+    height: 50px;
+    width: 100px;
+    background:white;
+    color:black;
+    border-radius: 20px 20px;
 }
+
+.copyright h3{
+
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+
+
+
 
